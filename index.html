@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="imgs/imagemPortfolio.jpg"
+      type="image/x-icon"
+    />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="toponav">
+        <a name="Topo"></a>
+        <a href="#Home">Home</a>
+        <a href="#Projeto">Projetos</a>
+        <a href="#Contato">Contato</a>
+        <div class="toponav-direita">
+          <a
+            href="https://www.linkedin.com/in/karina-piloupas-da-costa-220573191/"
+            target="_blank"
+            ><img border="0" src="imgs/Linkedin-icon.png"
+          /></a>
+          <a href="https://github.com/KahPiloupas" target="_blank"
+            ><img border="0" src="imgs/Github-icon.png"
+          /></a>
+          <a href="https://www.facebook.com/karina.piloupas" target="_blank"
+            ><img border="0" src="imgs/facebook-icon.png"
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <div class="secao1">
+      <img class="imgKarina" src="imgs/img_karina.jpg" />
+      <div class="central">
+        <h1><a name="Home"></a>Quem sou eu</h1>
+        <br />
+        <p>
+          <em
+            >Uma pessoa sempre disposta a aprender e compartilhar o que sabe.
+            Professora de Matemática atualmente, tenta sua transição de carreira
+            para a área de TI, onde busca novos desafios e crescimento
+            pessoal.</em
+          >
+        </p>
+      </div>
+    </div>
+    <div id="Projetos" class="secao2 central">
+      <table class="tableclass">
+        <tr>
+          <td class="tdimagem">
+            <img class="imagemProjeto" src="imgs/imagemMatematicaemsala.jpg" />
+          </td>
+          <td class="tdtext">
+            <ul>
+              <a name="Projeto"></a
+              >Projeto Matemática em sala de aula
+              <hr />
+              <li>
+                Descrição do Projeto: Elaboração de conteúdos Matemáticos
+                ensinados em sala de aula
+              </li>
+              <li>Tecnologia utilizada: Quadro branco, livro e caneta pilot</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdimagem">
+            <img class="imagemProjeto" src="imgs/imagemProjeto.jpg" />
+          </td>
+          <td class="tdtext">
+            <ul>
+              <a name="Projeto"></a
+              >Projeto Portfólio
+              <hr />
+              <li>
+                Descrição do Projeto: Desenvolvimento e criação de site
+                Portfólio
+              </li>
+              <li>Tecnologia utilizada: HTML e CSS</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="tdimagem">
+            <img
+              class="imagemProjeto"
+              src="imgs/imagemCurriculo.jpg"
+              style="padding-left: 15px"
+            />
+          </td>
+          <td class="tdtext">
+            <ul>
+              Projeto Currículo
+              <hr />
+              <li>
+                Descrição do Projeto: Desenvolvimento e criação de Curriculum
+                Vitae
+              </li>
+              <li>Tecnologia utilizada: HTML e CSS</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="Curriculo" class="secao3 central"></div>
+    <div id="Contato" class="secao4">
+      <h3><a name="Contato"></a>Contato</h3>
+    </div>
+    <div id="Formulario" class="secao5">
+      <form
+        enctype="text/plain"
+        action="mailto:karinapiloupas@gmail.com"
+        method="post"
+      >
+        <label><em>Nome:</em></label>
+        <input type="text" name="nome" /><br />
+        <br />
+        <label for=""><em>E-mail:</em></label>
+        <input type="email" name="email" /><br />
+        <br />
+        <label for=""><em>Mensagem:</em></label>
+        <br />
+        <textarea name="message" id="" cols="60" rows="10"></textarea><br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
